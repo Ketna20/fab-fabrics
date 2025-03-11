@@ -9,69 +9,52 @@
  */
 {
   "sections": {
-    "slideshow_feRFkb": {
-      "type": "slideshow",
+    "image_banner_pQYKLa": {
+      "type": "image-banner",
       "blocks": {
-        "slide_UeV8mM": {
-          "type": "slide",
+        "heading_iHiCEg": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/weddingregaliaBanner2.webp",
             "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Shop All",
-            "link": "",
-            "button_style_secondary": true,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
+            "heading_size": "h1"
+          }
+        },
+        "text_ikymTQ": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_hGNaAD": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop All",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "slide_UeV8mM"
+        "heading_iHiCEg",
+        "text_ikymTQ",
+        "buttons_hGNaAD"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
+        "image": "shopify://shop_images/weddingregaliaBanner2.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-85cc11e7-73f3-4622-8b10-737d9a030773",
         "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "title": "New Arrivals",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 36
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "promotion_UhQ9BM": {
@@ -85,22 +68,105 @@
         "text_color": "#3ce220"
       }
     },
-    "promotion_bC3Raj": {
-      "type": "promotion",
+    "image_with_text_K4bxdm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7qVDbG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stylish Lehengha",
+            "heading_size": "h2"
+          }
+        },
+        "text_gw9hUq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A lehenga isa long, ankle-length skirt that is a traditional garment from India.It is often worn with a blouse and a scarf or shawl.Lehengas are often worn for special occasions like weddings and festivals.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_7z8Ana": {
+          "type": "button",
+          "settings": {
+            "button_label": "View All",
+            "button_link": "shopify://collections/lehenga",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_7qVDbG",
+        "text_gw9hUq",
+        "button_7z8Ana"
+      ],
       "settings": {
-        "promo_heading": "Get 30% off on selected items",
-        "promo_text": "Use code GET30",
-        "button_text": "Shop Now",
-        "button_link": "",
-        "bg_color": "#334fb4",
-        "text_color": "#ffffff"
+        "image": "shopify://shop_images/StunningDarkTealOrganzaZariAndSequinsWorkFloralWeddingLehengaCholiForWomen.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_mh4mbw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zUiQXA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Classic Sherwani",
+            "heading_size": "h1"
+          }
+        },
+        "text_a6rDr8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A sherwani is a long-sleeved outer coat worn by men during wedding and festivals.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_XcGD6b": {
+          "type": "button",
+          "settings": {
+            "button_label": "View All",
+            "button_link": "shopify://collections/sherwani",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_zUiQXA",
+        "text_a6rDr8",
+        "button_XcGD6b"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/printed-velvet-sherwani-in-teal-blue-v2-mly1550.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "slideshow_feRFkb",
-    "featured_collection",
+    "image_banner_pQYKLa",
     "promotion_UhQ9BM",
-    "promotion_bC3Raj"
+    "image_with_text_K4bxdm",
+    "image_with_text_mh4mbw"
   ]
 }
