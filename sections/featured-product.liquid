@@ -114,7 +114,7 @@
                     {%- endunless -%}
                   </h2>
                 {%- when 'price' -%}
-                {% comment %}
+                
                   <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>  
                   {%- render 'price',
                       product: product,
@@ -152,7 +152,7 @@
                       {%- endform -%}
                     </div>
                   {%- endunless -%}
-                  {% endcomment %}
+                 
                 {%- when 'sku' -%}
                   <p
                     class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"

@@ -29,9 +29,9 @@
         "buttons_hGNaAD": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop All",
+            "button_label_1": "",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -44,7 +44,7 @@
         "buttons_hGNaAD"
       ],
       "settings": {
-        "image": "shopify://shop_images/weddingregaliaBanner2.webp",
+        "image": "shopify://shop_images/Celebrate_the_Union_in_Style.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -57,15 +57,105 @@
         "show_text_below": true
       }
     },
-    "promotion_UhQ9BM": {
-      "type": "promotion",
+    "featured_collection_HFdYXT": {
+      "type": "featured-collection",
       "settings": {
-        "promo_heading": "Get 20% off all sale Items",
-        "promo_text": "Use Code EXTRA at Checkout",
-        "button_text": "Shop Now",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#ffffff",
-        "text_color": "#3ce220"
+        "title": "Latest Lehengha",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "lehenga",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_84JkMM": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Sherwani",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sherwani",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-3",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_a3aj4C": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Saree",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "saree",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-3",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_9n8zCq": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Learn more about Indian Culture",
+        "heading_size": "h2",
+        "blog": "indian-blog",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-4",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_K4bxdm": {
@@ -90,7 +180,7 @@
           "settings": {
             "button_label": "View All",
             "button_link": "shopify://collections/lehenga",
-            "button_style_secondary": true
+            "button_style_secondary": false
           }
         }
       },
@@ -102,12 +192,12 @@
       "settings": {
         "image": "shopify://shop_images/StunningDarkTealOrganzaZariAndSequinsWorkFloralWeddingLehengaCholiForWomen.webp",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
+        "section_color_scheme": "scheme-3",
         "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -128,7 +218,7 @@
         "text_a6rDr8": {
           "type": "text",
           "settings": {
-            "text": "<p>A sherwani is a long-sleeved outer coat worn by men during wedding and festivals.</p>",
+            "text": "<p>A sherwani is a long-sleeved outer coat worn by men. Sherwanis are often worn for special occasions like weddings and festivals.</p>",
             "text_style": "body"
           }
         },
@@ -137,7 +227,7 @@
           "settings": {
             "button_label": "View All",
             "button_link": "shopify://collections/sherwani",
-            "button_style_secondary": true
+            "button_style_secondary": false
           }
         }
       },
@@ -154,19 +244,34 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-3",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "promotion_UhQ9BM": {
+      "type": "promotion",
+      "settings": {
+        "promo_heading": "Get 20% off all sale Items",
+        "promo_text": "Use Code EXTRA at Checkout",
+        "button_text": "Shop Now",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#ec7310"
+      }
     }
   },
   "order": [
     "image_banner_pQYKLa",
-    "promotion_UhQ9BM",
+    "featured_collection_HFdYXT",
+    "featured_collection_84JkMM",
+    "featured_collection_a3aj4C",
+    "featured_blog_9n8zCq",
     "image_with_text_K4bxdm",
-    "image_with_text_mh4mbw"
+    "image_with_text_mh4mbw",
+    "promotion_UhQ9BM"
   ]
 }

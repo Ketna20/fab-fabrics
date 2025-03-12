@@ -21,7 +21,9 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
+        "show_phone": true,
+        "show_order_number": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
