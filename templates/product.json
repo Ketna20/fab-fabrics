@@ -23,6 +23,12 @@
           "type": "title",
           "settings": {}
         },
+        "custom_liquid_QCMRpz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.variants.first.inventory_quantity < 5 %}\n<p>Stock: {{ product.variants.first.inventory_quantity }}</p>\n{% endif %}"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -59,6 +65,7 @@
       "block_order": [
         "vendor",
         "title",
+        "custom_liquid_QCMRpz",
         "price",
         "variant_picker",
         "quantity_selector",
